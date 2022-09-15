@@ -26,7 +26,7 @@ section:not(#three) {
     align-items: center;
    }
    #two div {
-    width: 400px;
+    width: 175px;
    }
    #red {
     background-color: red;
@@ -74,11 +74,13 @@ section:not(#three) {
     /* 6 */
     /* not sure about wording */
     align-items: center;
+    /* justify-content: flex-start; */
     /* flex-direction: column; */
     /* 7 */
     /* don't understand wording */
+    justify-content: space-between;
     /* 8 */
-
+    flex-wrap: wrap;
 
    }
    /* 9 */
